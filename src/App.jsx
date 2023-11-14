@@ -1,7 +1,17 @@
+import Homepage from "./Homepage.jsx";
+
 function App() {
   return (
     <>
-      <h1 className="text-8xl underline text-red">Template</h1>
+      <Homepage />
+      {/* ignore */}
+      <div class="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a href="#">Tulza</a>.
+      </div>
     </>
   );
 }
