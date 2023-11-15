@@ -1,12 +1,10 @@
 import React from "react";
+import headlineImage from "./assets/images/image-web-3-desktop.jpg";
 
 const HeadlineNew = () => {
   return (
     <div>
-      <img
-        src=".\assets\images\image-web-3-desktop.jpg"
-        className="mb-8 w-full"
-      />
+      <img src={headlineImage} className="mb-8 w-full" />
       <div className="grid grid-cols-2">
         <h1 className="big-text font-extrabold text-6xl">
           The Bright Future of Web 3.0?

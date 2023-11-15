@@ -8,7 +8,7 @@ const NavButton = ({ label }) => {
   );
 };
 
-const NavBar = ({}) => {
+const NavButtons = ({}) => {
   return (
     <>
       <div className="flex gap-x-8">
@@ -22,4 +22,4 @@ const NavBar = ({}) => {
   );
 };
 
-export default NavBar;
+export default NavButtons;
