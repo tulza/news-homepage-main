@@ -9,4 +9,6 @@ export default defineConfig({
     build: "vite build",
     preview: "vite preview",
   },
+
+  base: "/news-homepage-main/",
 });
