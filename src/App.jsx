@@ -1,11 +1,16 @@
-import { useState } from "react";
-import "./style/styles.css";
+import Homepage from "./homepage";
 
 function App() {
   return (
     <>
-      <div className="flex justify-center align-middle">
-        <h1> thisa template</h1>
+      <Homepage />
+      {/* ignore */}
+      <div className="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a href="#">Tulza</a>.
       </div>
     </>
   );
